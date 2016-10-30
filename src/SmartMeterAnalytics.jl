@@ -1,5 +1,9 @@
 module SmartMeterAnalytics
 
-# package code goes here
+using Base.Dates
+
+export tou
+
+include("tou.jl")
 
 end # module
